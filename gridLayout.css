@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 1fr 5fr 1fr;
+    height: 100vh;
+}
+
+header{
+    background-color: #D2E0FB;
+    grid-column: 1/3;
+
+}
+aside{
+    background-color: #8EACCD;
+
+}
+main{
+    background-color: #F9F3CC;
+    
+}
+footer{
+    background-color: #D7E5CA;
+    grid-column: 1/3;
+}
