@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+main{
+    height: 50%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    
+}
+div{
+    background-color: rgb(42, 67, 5);
+}
+div:first-child{
+    background-color: greenyellow;
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+div:nth-child(2){
+    background-color: greenyellow;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+div:last-child{
+    background-color: greenyellow;
+    grid-column: 5/4;
+    grid-row: 4/2;
+}

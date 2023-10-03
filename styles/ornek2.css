@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: repeat(3,200px);
+    gap: 10px;
+}
+div{
+    background-color: brown;
+}
+
+div:nth-child(3){
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: rgb(33, 147, 60);
+}

@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+}
+
+main{
+    height: 90vh;
+    width: 80vw;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+}
+
+div:nth-child(2){
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: blueviolet;
+}
